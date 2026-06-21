@@ -1,0 +1,583 @@
+6: <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+8: <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+24: background: rgba(255, 255, 255, 0.03);
+27: border: 1px solid rgba(255, 255, 255, 0.08);
+28: min-height: 400px;
+32: min-height: 350px !important;
+33: height: 350px !important;
+39: color: rgba(255, 255, 255, 0.6);
+40: font-size: 0.9rem;
+52: gap: 0.5rem;
+56: color: rgba(255, 255, 255, 0.9);
+57: font-size: 0.95rem;
+58: font-weight: 500;
+62: background: rgba(0, 212, 255, 0.08);
+64: border-radius: 10px;
+65: border: 1px solid rgba(0, 212, 255, 0.2);
+66: margin-top: 0.5rem;
+72: padding: 0.5rem 0;
+73: border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+81: color: rgba(255, 255, 255, 0.7);
+82: font-size: 0.9rem;
+86: color: #00d4ff;
+91: border-top: 1px solid rgba(255, 255, 255, 0.1);
+98: gap: 0.8rem;
+99: max-height: 300px;
+106: color: rgba(255, 255, 255, 0.5);
+107: font-size: 0.95rem;
+111: background: rgba(255, 255, 255, 0.03);
+113: border-radius: 10px;
+114: border: 1px solid rgba(255, 255, 255, 0.08);
+122: background: rgba(0, 212, 255, 0.15);
+123: color: #00d4ff;
+126: border-radius: 50%;
+130: font-weight: 600;
+131: font-size: 0.9rem;
+137: gap: 0.3rem;
+142: gap: 0.5rem;
+143: font-size: 0.9rem;
+147: color: rgba(255, 255, 255, 0.6);
+151: color: rgba(255, 255, 255, 0.95);
+155: color: rgba(255, 255, 255, 0.5);
+156: font-size: 0.85rem;
+184: gap: 0.5rem;
+188: width: 100%;
+189: height: 180px;
+193: font-size: 0.85rem;
+194: color: rgba(255, 255, 255, 0.5);
+209: background: rgba(255, 255, 255, 0.03);
+211: border: 1px solid rgba(255, 255, 255, 0.08);
+215: font-size: 0.95rem;
+216: font-weight: 500;
+217: color: rgba(255, 255, 255, 0.7);
+222: font-weight: 700;
+227: color: #00d4ff;
+230: @media (max-width: 1024px) {
+258: style="background: var(--primary-color-extra-light); color: var(--white); border-radius: 10px; box-shadow: 0 3px 16px rgba(0,0,0,0.16); padding: 0.48rem 1.05rem; font-size: 0.97rem; font-weight: 600; border: none; letter-spacing: 0.4px; display: flex; align-items: center; gap: 0.4rem; min-width: 135px; justify-content: center;">
+259: <i class="ri-menu-line" style="font-size: 1.05rem;"></i> Menu
+262: style="position: absolute; top: calc(100% + 12px); right: 0; background: var(--primary-color-light); border-radius: 11px; min-width: 135px; opacity: 0; visibility: hidden; transform: translateY(-8px); transition: all 0.19s cubic-bezier(.4,1.3,.6,1); z-index: 1000; overflow: visible; border: none; box-shadow: 0 6px 22px rgba(0,0,0,0.19); padding: 0.35rem 0; list-style: none; margin: 0;">
+264: style="display: flex; align-items: center; gap: 0.6rem; padding: 0.62rem 1rem; color: var(--white); text-decoration: none; font-size: 0.93rem; background: none; border-bottom: none; border-radius: 6px; transition: background 0.14s, color 0.14s;"><i
+266: style="font-size: 0.98rem; color: var(--text-light); margin-right: 0.22rem; transition: color 0.14s;"></i>
+269: style="display: flex; align-items: center; gap: 0.6rem; padding: 0.62rem 1rem; color: var(--white); text-decoration: none; font-size: 0.93rem; background: none; border-bottom: none; border-radius: 6px; transition: background 0.14s, color 0.14s;"><i
+271: style="font-size: 0.98rem; color: var(--text-light); margin-right: 0.22rem; transition: color 0.14s;"></i>
+274: style="display: flex; align-items: center; gap: 0.6rem; padding: 0.62rem 1rem; color: var(--white); text-decoration: none; font-size: 0.93rem; background: none; border-bottom: none; border-radius: 6px; transition: background 0.14s, color 0.14s;"><i
+276: style="font-size: 0.98rem; color: var(--text-light); margin-right: 0.22rem; transition: color 0.14s;"></i>
+291: style="font-size: 3.5rem; font-weight: 900; line-height: 1.1; margin-bottom: 1.5rem;">
+294: style="background: linear-gradient(135deg, #00d4ff, #00ff88); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 4rem;">STORY</span><br>
+298: style="font-size: 1.3rem; font-weight: 500; color: rgba(255, 255, 255, 0.9); margin-bottom: 2rem;">
+299: Don't just lift. <strong style="color: #00ff88;">Track.</strong> <strong
+300: style="color: #00d4ff;">Analyze.</strong> And visualize tangible progress.
+336: <span class="exercise-reps">0/4 sets</span>
+342: <span class="exercise-reps">0/3 sets</span>
+359: <svg class="calorie-display-ring" viewBox="0 0 140 140" aria-hidden="true">
+360: <circle class="calorie-display-ring-bg" cx="70" cy="70" r="58"></circle>
+361: <circle class="calorie-display-ring-progress" cx="70" cy="70" r="58"></circle>
+364: <span class="calorie-display-value">0</span>
+368: <div class="calorie-display-percent">กินแล้ว 0%</div>
+373: <span class="info-value" id="dashboardCalorieGoal">3,000 kcal</span>
+377: <span class="info-value info-consumed" id="dashboardCalorieConsumed">0 kcal</span>
+381: <span class="info-value info-protein" id="dashboardProtein">0 g</span>
+398: <span class="stat-value">400kg</span>
+400: <i class="ri-trending-up-line"></i> +50kg
+460: <li>ยังไม่มีข้อมูลสรุป</li>
+570: Gymkak © 2025 Web Design by yollaex.
+574: integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+580: Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.1)';
+587: duration: 800,
+590: resizeDelay: 200,
+602: active: { animation: { duration: 400 } },
+603: resize: { animation: { duration: 400 } },
+604: show: { animation: { duration: 800, easing: 'easeInOutQuart' } },
+605: hide: { animation: { duration: 400 } }
+608: x: { grid: { display: false }, ticks: { font: { size: 10 } } },
+609: y: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { font: { size: 10 } } }
+655: const safeUserId = String(userId || fallbackFromToken).replace(/[^a-zA-Z0-9_-]/g, '_');
+686: .slice(0, 5)
+725: borderColor: '#00d4ff',
+726: backgroundColor: 'rgba(0, 212, 255, 0.1)',
+727: tension: 0.4,
+730: pointBackgroundColor: '#00d4ff',
+741: weightCardChartInstance.data.datasets[0].data = safeWeights;
+748: setTimeout(updateDashboardWeightChart, 100);
+751: setTimeout(updateDashboardWeightChart, 100);
+764: data: [25, 23, 21, 20, 19, 18],
+765: borderColor: '#00ff88',
+766: backgroundColor: 'rgba(0, 255, 136, 0.1)',
+767: tension: 0.4,
+770: pointBackgroundColor: '#00ff88',
+782: let currentExerciseIndex = 0;
+783: const exerciseSlots = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+791: if (history.length === 0) return null;
+816: const last5 = history.slice(0, 5);
+823: const improvements = reversedHistory.map(entry => entry.improvement || 0);
+840: let attempts = 0;
+846: if (exerciseData && exerciseData.data.length > 0) {
+855: if (!exerciseData || exerciseData.data.length === 0) {
+866: data: [0, 0, 0, 0, 0],
+868: backgroundColor: 'rgba(102, 102, 102, 0.1)',
+869: tension: 0.4,
+889: statValue.style.opacity = '0';
+892: statValue.style.transition = 'opacity 0.3s ease';
+894: }, 300);
+898: statChange.style.opacity = '0';
+900: const sign = latestImprovement >= 0 ? '+' : '';
+901: statChange.innerHTML = `<i class="ri-trending-${latestImprovement >= 0 ? 'up' : 'down'}-line"></i> ${sign}${latestImprovement}%`;
+902: statChange.className = `stat-change trending-${latestImprovement >= 0 ? 'up' : 'down'}`;
+903: statChange.style.transition = 'opacity 0.3s ease';
+905: }, 300);
+910: strengthCanvas.style.opacity = '0';
+911: strengthCanvas.style.transition = 'opacity 0.4s ease';
+925: borderColor: latestImprovement >= 0 ? '#00ff88' : '#ef4444',
+926: backgroundColor: latestImprovement >= 0 ? 'rgba(0, 255, 136, 0.1)' : 'rgba(239, 68, 68, 0.1)',
+927: tension: 0.4,
+930: pointBackgroundColor: latestImprovement >= 0 ? '#00ff88' : '#ef4444',
+941: }, 50);
+942: }, 400);
+953: borderColor: latestImprovement >= 0 ? '#00ff88' : '#ef4444',
+954: backgroundColor: latestImprovement >= 0 ? 'rgba(0, 255, 136, 0.1)' : 'rgba(239, 68, 68, 0.1)',
+955: tension: 0.4,
+958: pointBackgroundColor: latestImprovement >= 0 ? '#00ff88' : '#ef4444',
+976: strengthChartRotationInterval = setInterval(updateStrengthChart, 5000);
+1002: dropdownMenu.style.opacity = '0';
+1004: dropdownMenu.style.transform = 'translateY(-10px)';
+1008: dropdownMenu.style.transform = 'translateY(0)';
+1013: dropdownMenu.style.opacity = '0';
+1015: dropdownMenu.style.transform = 'translateY(-10px)';
+1022: item.style.background = 'rgba(255,255,255,0.09)';
+1025: item.style.boxShadow = '0 2px 8px rgba(0,0,0,0.10)';
+1072: window.location.href = 'http://127.0.0.1:5500/Gymkak/src/dashboard/dashboard.html';
+1096: tdee: 2500,
+1098: { name: 'Breakfast', kcal: 450, protein: 35 },
+1099: { name: 'Lunch', kcal: 650, protein: 50 }
+1126: 'http://127.0.0.1:5000',
+1127: 'http://localhost:5000',
+1128: 'http://127.0.0.1:5001',
+1129: 'http://localhost:5001'
+1142: if (response.status !== 404 && response.status !== 502 && response.status !== 503) {
+1202: setTimeout(updateDashboardWeightChart, 0);
+1245: '<a href="/Gymkak/src/user/login/login.html" style="color: #00ff88; text-decoration: underline;">Login</a> '
+1251: scheduleAiSummaryRefresh(400);
+1262: return `${bkkDate.getFullYear()}-${String(bkkDate.getMonth() + 1).padStart(2, '0')}-${String(bkkDate.getDate()).padStart(2, '0')}`;
+1268: return matched ? Number(matched[0]) : null;
+1286: return { calorieGoal: null, calorieConsumed: 0, protein: 0 };
+1290: const protein = meals.reduce((sum, meal) => sum + Math.max(0, Number(meal?.protein) || 0), 0);
+1294: calorieConsumed: Number.isFinite(Number(todayData.consumed)) ? Number(todayData.consumed) : 0,
+1298: return { calorieGoal: null, calorieConsumed: 0, protein: 0 };
+1303: const bmi = Number.isFinite(payload.weight) && Number.isFinite(payload.height) && payload.height > 0
+1304: ? payload.weight / ((payload.height / 100) ** 2)
+1306: const progress = Number.isFinite(payload.calorieGoal) && payload.calorieGoal > 0
+1307: ? (payload.calorieConsumed / payload.calorieGoal) * 100
+1310: let score = 50;
+1312: if (progress >= 80 && progress <= 110) score += 18;
+1313: else if (progress >= 60 && progress <= 130) score += 10;
+1316: if (payload.protein >= 120) score += 15;
+1317: else if (payload.protein >= 80) score += 10;
+1320: score += payload.strengthTrendPercent >= 0 ? 10 : -6;
+1322: score = Math.max(0, Math.min(100, Math.round(score)));
+1325: Number.isFinite(bmi) ? `BMI ประมาณ ${bmi.toFixed(1)}` : 'ยังไม่มีข้อมูล BMI',
+1328: : 'ยังไม่มีข้อมูลเป้าหมายแคลอรี่',
+1330: ? `แนวโน้มแรงยกล่าสุด ${payload.strengthTrendPercent >= 0 ? '+' : ''}${payload.strengthTrendPercent}%`
+1331: : 'ยังไม่มีข้อมูลแนวโน้มแรงยก'
+1335: if (!Number.isFinite(progress) || progress < 80) {
+1338: if (!Number.isFinite(payload.protein) || payload.protein < 100) {
+1339: recommendations.push('เพิ่มโปรตีนเป็นอย่างน้อย 100-120 กรัม/วัน');
+1341: if (Number.isFinite(payload.strengthTrendPercent) && payload.strengthTrendPercent < 0) {
+1350: summaryText: `คะแนนภาพรวมตอนนี้ ${score}/100 จากข้อมูลล่าสุดของคุณ`,
+1374: ? Number(weightHistory[weightHistory.length - 1]) - Number(weightHistory[0])
+1379: `น้ำหนัก: ${formatNumberOrDash(weight, ' กก.')}${Number.isFinite(weightDelta) ? ` (${weightDelta > 0 ? '+' : ''}${weightDelta.toFixed(1)} กก. จากข้อมูลล่าสุด)` : ''}`,
+1380: `แคลอรี่เฉลี่ย: ${formatNumberOrDash(consumed, ' kcal/วัน')}${Number.isFinite(calorieGap) ? ` (${calorieGap >= 0 ? 'ขาดดุล' : 'เกิน'} ${Math.abs(Math.round(calorieGap)).toLocaleString('en-US')} kcal)` : ''}`,
+1382: `ออกกำลังกาย: ${Number.isFinite(strengthTrend) ? `แนวโน้มแรงยก ${strengthTrend > 0 ? '+' : ''}${strengthTrend}%` : 'ยังไม่มีข้อมูลเพียงพอ'}`
+1387: observations.push(weightDelta < 0
+1395: observations.push(calorieGap > 0
+1409: summaryText: summary?.summaryText || 'ยังไม่มีข้อมูลสรุป',
+1468: highlightsEl.innerHTML = '<li>ยังไม่มีข้อมูลสรุป</li>';
+1483: : '<li>ยังไม่มีข้อมูลสรุป</li>';
+1499: const latestWeight = Array.isArray(latestWeightEntries) && latestWeightEntries[0] ? latestWeightEntries[0] : null;
+1555: function scheduleAiSummaryRefresh(delay = 900) {
+1575: }, 100);
+1637: }, 100);
+1671: goal: 3000,
+1678: function getThaiDate(offsetDays = 0) {
+1682: if (offsetDays !== 0) {
+1690: return `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+1698: const goal = Math.max(1, Number(calorieState.goal) || 3000);
+1709: percent: goal > 0 ? Math.min((consumed / goal) * 100, 100) : 0,
+1714: // Keep only last 30 days
+1716: if (keys.length > 30) {
+1717: const keysToKeep = keys.slice(0, 30);
+1737: for (let i = 6; i >= 0; i--) {
+1739: const dateKey = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+1743: percent: Math.max(0, Math.min(history[dateKey].percent || 0, 100)),
+1750: percent: 0,
+1761: return Array(7).fill({ percent: 0, dayOfWeek: 0, dateKey: null, data: null });
+1796: if (calorieGoalInput) calorieGoalInput.value = 3000;
+1797: calorieState.goal = 3000;
+1802: if (calorieGoalInput) calorieGoalInput.value = dayData.goal || 3000;
+1803: calorieState.goal = dayData.goal || 3000;
+1852: const circumference = 100;
+1853: const offset = circumference - (dayData.percent / 100) * circumference;
+1857: if (dayData.percent >= 100) {
+1858: progressCircle.style.stroke = '#f59e0b'; // orange for 100%+
+1859: } else if (dayData.percent > 0) {
+1860: progressCircle.style.stroke = '#00ff88'; // green for progress
+1862: progressCircle.style.stroke = 'rgba(255, 255, 255, 0.1)'; // default empty
+1875: return (Math.max(0, Number(value) || 0)).toLocaleString('en-US');
+1879: return calorieState.meals.reduce((sum, meal) => sum + (Number(meal.kcal) || 0), 0);
+1884: totals.protein += Math.max(0, Number(meal.protein) || 0);
+1885: totals.carbs += Math.max(0, Number(meal.carbs) || 0);
+1886: totals.fat += Math.max(0, Number(meal.fat) || 0);
+1888: }, { protein: 0, carbs: 0, fat: 0 });
+1906: calorieState.goal = Math.max(1, Number(todayData.goal) || 3000);
+1911: name: String(item.name).trim().slice(0, 60),
+1912: kcal: Math.max(0, Number(item.kcal) || 0),
+1913: protein: Math.max(0, Number(item.protein) || 0),
+1914: carbs: Math.max(0, Number(item.carbs) || 0),
+1915: fat: Math.max(0, Number(item.fat) || 0)
+1921: calorieState.goal = 3000;
+1949: <span class="meal-item-macros">โปรตีน ${Math.max(0, Number(meal.protein) || 0)}g • คาร์บ ${Math.max(0, Number(meal.carbs) || 0)}g • ไขมัน ${Math.max(0, Number(meal.fat) || 0)}g</span>
+1963: if (progressBar) progressBar.style.width = `${Math.max(0, Math.min(percent, 100))}%`;
+1965: progressInfo[0].textContent = `${formatKcalNumber(consumed)} kcal`;
+1966: progressInfo[1].textContent = `${Math.round(Math.max(0, Math.min(percent, 100)))}%`;
+1974: const remaining = Math.max(goal - consumed, 0);
+1975: const clampedPercent = Math.max(0, Math.min(percent, 100));
+1983: displayRingProgress.style.strokeDashoffset = `${circumference * (1 - clampedPercent / 100)}`;
+1984: displayRingProgress.style.stroke = clampedPercent >= 100 ? '#f59e0b' : '#00ff88';
+1995: displayPercent.style.color = clampedPercent >= 100 ? '#f59e0b' : '#00ff88';
+2013: let goal = 3000;
+2015: goal = Number(currentUserData.tdee) || 3000;
+2017: goal = Number(calorieState.goal) || 3000;
+2020: let consumed = 0;
+2021: let protein = 0;
+2027: consumed = todayData.consumed || 0;
+2031: return sum + Math.max(0, Number(meal.protein) || 0);
+2032: }, 0);
+2036: const remaining = Math.max(goal - consumed, 0);
+2037: const percent = (consumed / goal) * 100;
+2038: const clampedPercent = Math.max(0, Math.min(percent, 100));
+2046: displayRingProgress.style.strokeDashoffset = `${circumference * (1 - clampedPercent / 100)}`;
+2047: displayRingProgress.style.stroke = clampedPercent >= 100 ? '#f59e0b' : '#00ff88';
+2058: displayPercent.style.color = clampedPercent >= 100 ? '#f59e0b' : '#00ff88';
+2071: scheduleAiSummaryRefresh(700);
+2076: const goal = Math.max(1, Number(calorieState.goal) || 3000);
+2079: const remaining = Math.max(goal - consumed, 0);
+2080: const percent = (consumed / goal) * 100;
+2081: const clampedPercent = Math.max(0, Math.min(percent, 100));
+2092: calorieRingProgress.style.strokeDashoffset = `${calorieRingCircumference * (1 - clampedPercent / 100)}`;
+2093: calorieRingProgress.style.stroke = clampedPercent >= 100 ? '#f59e0b' : '#00ff88';
+2147: if (mealKcalInput) mealKcalInput.value = Math.max(0, Number(estimated.kcal) || 0);
+2148: if (mealProteinInput) mealProteinInput.value = Math.max(0, Number(estimated.protein) || 0);
+2149: if (mealCarbsInput) mealCarbsInput.value = Math.max(0, Number(estimated.carbs) || 0);
+2150: if (mealFatInput) mealFatInput.value = Math.max(0, Number(estimated.fat) || 0);
+2184: const kcalValue = Math.max(0, Number(mealKcalInput?.value) || 0);
+2185: const proteinValue = Math.max(0, Number(mealProteinInput?.value) || 0);
+2186: const carbsValue = Math.max(0, Number(mealCarbsInput?.value) || 0);
+2187: const fatValue = Math.max(0, Number(mealFatInput?.value) || 0);
+2189: if (!mealName || kcalValue <= 0) {
+2228: if (Number.isNaN(mealIndex) || mealIndex < 0 || mealIndex >= calorieState.meals.length) return;
+2276: calorieSaveBtn.style.opacity = '0.5';
+2285: }, 1000);
+2312: }, 100);
+2375: border: 1px solid rgba(255, 255, 255, 0.15);
+2377: box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+2378: z-index: 10000;
+2379: width: 210px;
+2380: max-width: calc(100vw - 24px);
+2386: <button class="strength-category-btn" data-category="weight" style="width: 100%; padding: 0.7rem 0.9rem; background: transparent; border: none; border-bottom: 1px solid rgba(255,255,255,0.08); color: #f2f4f7; text-align: left; cursor: pointer; font-size: 0.92rem;">
+2389: <button class="strength-category-btn" data-category="cardio" style="width: 100%; padding: 0.7rem 0.9rem; background: transparent; border: none; border-bottom: 1px solid rgba(255,255,255,0.08); color: #f2f4f7; text-align: left; cursor: pointer; font-size: 0.92rem;">
+2392: <button class="strength-category-btn" data-category="calisthenics" style="width: 100%; padding: 0.7rem 0.9rem; background: transparent; border: none; color: #f2f4f7; text-align: left; cursor: pointer; font-size: 0.92rem;">
+2399: this.style.background = 'rgba(255,255,255,0.07)';
+2432: const dropdownWidth = 210;
+2473: let loadedCount = 0;
+2516: if (items.length === 0) {
+2572: let slotIndex = 0;
+2574: for (let i = 0; i < allSlots.length && slotIndex < newItems.length; i++) {
+2658: const currentWeight = parseFloat(currentInput.value) || 0;
+2659: const currentSets = parseFloat(currentSetsInput.value) || 0;
+2660: const currentReps = parseFloat(currentRepsInput.value) || 0;
+2661: const previousWeight = parseFloat(goalInput.value) || 0;
+2662: const previousSets = parseFloat(goalSetsInput.value) || 0;
+2663: const previousReps = parseFloat(goalRepsInput.value) || 0;
+2665: if (previousWeight > 0 && previousSets > 0 && previousReps > 0 && currentWeight > 0 && currentSets > 0 && currentReps > 0) {
+2668: const improvement = Math.round(((currentVolume - previousVolume) / previousVolume) * 100);
+2669: const sign = improvement > 0 ? '+' : '';
+2673: if (improvement > 0) {
+2674: progressText.style.color = '#00ff88';
+2675: } else if (improvement < 0) {
+2678: progressText.style.color = 'rgba(255, 255, 255, 0.85)';
+2680: } else if (previousWeight > 0 && previousSets > 0 && previousReps > 0) {
+2682: progressText.style.color = 'rgba(255, 255, 255, 0.7)';
+2685: progressText.style.color = 'rgba(255, 255, 255, 0.7)';
+2774: const newSets = parseInt(updateSetsInput.value, 10);
+2775: const newReps = parseInt(updateRepsInput.value, 10);
+2777: if (!newWeight || !newSets || !newReps || newWeight <= 0 || newSets <= 0 || newReps <= 0) {
+2778: alert('กรุณากรอกค่าปัจจุบันให้ครบและมากกว่า 0');
+2783: saveStrengthUpdateBtn.style.opacity = '0.6';
+2788: const oldWeight = parseFloat(currentInput.value) || 0;
+2789: const oldSets = parseInt(currentSetsInput.value, 10) || 0;
+2790: const oldReps = parseInt(currentRepsInput.value, 10) || 0;
+2792: let improvement = 0;
+2793: if (oldWeight > 0 && oldSets > 0 && oldReps > 0) {
+2796: improvement = Math.round(((newVolume - oldVolume) / oldVolume) * 100);
+2814: parseFloat(goalInput.value) || 0,
+2815: parseInt(goalSetsInput.value, 10) || 0,
+2816: parseInt(goalRepsInput.value, 10) || 0);
+2826: }, 2000);
+2980: // Dynamic slot setup: show 0 slots initially, add more by selection
+2981: const TOTAL_STRENGTH_SLOTS = 10;
+2982: const INITIAL_VISIBLE_SLOTS = 0;
+3013: const options = available.length > 0 ? available : defaultExerciseOptions;
+3116: const slotNumber = parseInt(slotNum, 10);
+3225: for (let i = 1; i <= 10; i++) {
+3242: if (!history || history.length === 0) {
+3250: const signClass = record.improvement > 0 ? 'positive' : record.improvement < 0 ? 'negative' : 'neutral';
+3251: const signText = record.improvement > 0 ? `+${record.improvement}%` : `${record.improvement}%`;
+3297: strengthSaveBtn.style.opacity = '0.5';
+3306: }, 1000);
+3347: .slice(0, 12)
+3351: sets: Math.max(1, Math.min(20, parseInt(item.sets, 10) || 3)),
+3377: if (items.length === 0) {
+3420: if (selectedExercises.length === 0) {
+3430: <div class="workout-delete-tools" style="display:flex; justify-content:space-between; align-items:center; gap:0.6rem; margin-bottom:0.75rem; padding:0.55rem 0.65rem; border:1px solid rgba(255,255,255,0.11); border-radius:8px; background:rgba(255,255,255,0.03);">
+3431: <label style="display:flex; align-items:center; gap:0.42rem; color:rgba(255,255,255,0.88); font-size:0.84rem;">
+3435: <div style="display:flex; align-items:center; gap:0.45rem;">
+3436: <button type="button" id="workout-delete-selected-btn" style="background:#b73232; border:none; color:#fff; padding:0.35rem 0.7rem; border-radius:6px; font-size:0.78rem; cursor:pointer;" ${selectedCount === 0 ? 'disabled' : ''}>ลบที่เลือก (${selectedCount})</button>
+3437: <button type="button" id="workout-delete-all-btn" style="background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.22); color:#fff; padding:0.35rem 0.7rem; border-radius:6px; font-size:0.78rem; cursor:pointer;">ลบทั้งหมด</button>
+3438: <button type="button" id="workout-delete-cancel-btn" style="background:transparent; border:1px solid rgba(255,255,255,0.2); color:#fff; padding:0.35rem 0.7rem; border-radius:6px; font-size:0.78rem; cursor:pointer;">ยกเลิก</button>
+3467: <div class="workout-set-editor" style="display:flex; align-items:center; justify-content:center; gap:0.4rem;">
+3469: <input type="number" class="workout-set-input" data-index="${originalIndex}" min="1" max="20" value="${item.sets}" style="width:62px; text-align:center; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.15); color:#fff; border-radius:6px; padding:0.25rem 0.32rem;">
+3471: <span style="font-size:0.8rem; color:rgba(255,255,255,0.7);">SET</span>
+3480: const index = parseInt(this.dataset.index, 10);
+3491: const index = parseInt(this.dataset.index, 10);
+3492: const nextValue = Math.max(1, Math.min(20, parseInt(this.value, 10) || 3));
+3510: const index = parseInt(this.dataset.index, 10);
+3513: const nextValue = Math.max(1, (parseInt(selectedExercises[index].sets, 10) || 3) - 1);
+3530: const index = parseInt(this.dataset.index, 10);
+3533: const nextValue = Math.min(20, (parseInt(selectedExercises[index].sets, 10) || 3) + 1);
+3550: const index = parseInt(this.dataset.index, 10);
+3574: if (selectedDeleteIndexes.size === 0) return;
+3580: if (selectedExercises.length === 0) {
+3631: if (selectedExercises.length === 0) return;
+3645: border: 1px solid rgba(255, 255, 255, 0.15);
+3647: box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+3648: z-index: 10000;
+3649: width: 210px;
+3650: max-width: calc(100vw - 24px);
+3656: <button class="workout-category-btn" data-category="weight" style="width: 100%; padding: 0.7rem 0.9rem; background: transparent; border: none; border-bottom: 1px solid rgba(255,255,255,0.08); color: #f2f4f7; text-align: left; cursor: pointer; font-size: 0.92rem;">
+3659: <button class="workout-category-btn" data-category="cardio" style="width: 100%; padding: 0.7rem 0.9rem; background: transparent; border: none; border-bottom: 1px solid rgba(255,255,255,0.08); color: #f2f4f7; text-align: left; cursor: pointer; font-size: 0.92rem;">
+3662: <button class="workout-category-btn" data-category="calisthenics" style="width: 100%; padding: 0.7rem 0.9rem; background: transparent; border: none; color: #f2f4f7; text-align: left; cursor: pointer; font-size: 0.92rem;">
+3669: this.style.background = 'rgba(255,255,255,0.07)';
+3706: const dropdownWidth = dropdown.offsetWidth || 210;
+3707: const dropdownHeight = dropdown.offsetHeight || 120;
+3806: if (selectedExercises.length === 0) {
+3816: saveWorkoutPlanBtn.style.opacity = '0.5';
+3826: }, 1000);
+3842: if (selectedExercises.length === 0) {
+3848: <span class="exercise-reps">/0 set</span>
+3897: node.style.transition = 'transform 0s';
+3900: node.style.transition = 'transform 300ms cubic-bezier(0.2, 0.7, 0.2, 1)';
+3901: node.style.transform = 'translateY(0)';
+3924: if (tabBtns.length > 0) tabBtns[0].click();
+3967: const done = fullFormat ? fullFormat[1] : 0;
+3968: const total = fullFormat ? fullFormat[2] : (slashFormat ? slashFormat[1] : 0);
+3973: <input type="number" class="track-input" name="reps${idx}" min="0" placeholder="Reps" value="${done || ''}" style="width:70px;display:inline-block;"> /
+3974: <input type="number" class="track-input" name="sets${idx}" min="0" placeholder="Sets" value="${total || ''}" style="width:60px;display:inline-block;">
+3990: <input type="text" class="track-input" name="customname${idx}" placeholder="ชื่อท่า..." style="width:110px;display:inline-block;">
+3991: <input type="number" class="track-input" name="reps${idx}" min="0" placeholder="Reps" style="width:70px;display:inline-block;"> /
+3992: <input type="number" class="track-input" name="sets${idx}" min="0" placeholder="Sets" style="width:60px;display:inline-block;">
+4002: const calorieGoal = 3000;
+4005: let val = parseInt(this.value) || 0;
+4006: let percent = Math.min(100, Math.round(val / calorieGoal * 100));
+4024: if (this.files && this.files[0]) {
+4027: afterPreview.innerHTML = `<img src="${ev.target.result}" style="width:100%;height:100%;object-fit:cover;border-radius:8px;">`;
+4029: reader.readAsDataURL(this.files[0]);
+4040: }, 1200);
+4070: const maxDate = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+4074: let currentSlideIndex = 0;
+4123: const day = String(d.getDate()).padStart(2, '0');
+4124: const month = String(d.getMonth() + 1).padStart(2, '0');
+4151: const day = parseInt(parts[0], 10);
+4152: const month = parseInt(parts[1], 10);
+4153: const year = parseInt(parts[2], 10);
+4157: if (year < 1900 || year > 2100) return false;
+4203: const file = e.target.files[0];
+4255: }, 2000);
+4280: if (baImages.length === 0) {
+4346: if (baImages.length === 0) {
+4356: currentSlideIndex = 0;
+4364: }, 5000);
+4370: if ((!baSlideshowDisplay && !baCardSlideshowDisplay) || baImages.length === 0) return;
+4372: const latest5 = baImages.slice(0, 5);
+4436: if (weightData.length > 0) {
+4437: const latest = weightData[0];
+4452: if (weightData.length === 0) {
+4453: weightHistoryList.innerHTML = '<div class="weight-history-empty">ยังไม่มีข้อมูล</div>';
+4457: const last5 = weightData.slice(0, 5);
+4485: const last5 = weightData.slice(0, 5).reverse(); // Oldest to newest for chart
+4501: borderColor: '#00d4ff',
+4502: backgroundColor: 'rgba(0, 212, 255, 0.1)',
+4503: tension: 0.4,
+4506: pointBackgroundColor: '#00d4ff',
+4515: duration: 0
+4528: grid: { color: 'rgba(255, 255, 255, 0.05)' },
+4581: if (!weight || weight <= 0) {
+4586: if (!height || height <= 0) {
+4591: if (!bodyFat || bodyFat <= 0 || bodyFat > 100) {
+4592: alert('กรุณากรอกเปอร์เซ็นต์ไขมันให้ถูกต้อง (0-100)');
+4598: const dateStr = `${String(now.getDate()).padStart(2, '0')}-${String(now.getMonth() + 1).padStart(2, '0')}-${now.getFullYear()}`;
+4608: // Keep only last 10 entries
+4609: if (weightData.length > 10) {
+4610: weightData = weightData.slice(0, 10);
+4627: }, 2000);
+4644: if (!Array.isArray(currentWeightData) || currentWeightData.length === 0) {
+4649: scheduleAiSummaryRefresh(700);
+4656: scheduleAiSummaryRefresh(700);
+4660: const latest = currentWeightData[0];
+4674: scheduleAiSummaryRefresh(700);
+4681: scheduleAiSummaryRefresh(1200);
+4697: <div class="calorie-day-item" data-day="0">
+4698: <svg class="calorie-day-ring" viewBox="0 0 36 36">
+4705: <svg class="calorie-day-ring" viewBox="0 0 36 36">
+4712: <svg class="calorie-day-ring" viewBox="0 0 36 36">
+4719: <svg class="calorie-day-ring" viewBox="0 0 36 36">
+4726: <svg class="calorie-day-ring" viewBox="0 0 36 36">
+4733: <svg class="calorie-day-ring" viewBox="0 0 36 36">
+4740: <svg class="calorie-day-ring" viewBox="0 0 36 36">
+4751: <svg class="calorie-ring" viewBox="0 0 140 140" aria-hidden="true">
+4752: <circle class="calorie-ring-bg" cx="70" cy="70" r="58"></circle>
+4753: <circle id="calorieRingProgress" class="calorie-ring-progress" cx="70" cy="70" r="58"></circle>
+4756: <span id="calorieRemainingValue" class="calorie-center-value">3000</span>
+4760: <div id="caloriePercentLabel" class="calorie-percent-label">กินแล้ว 0%</div>
+4771: <input type="number" id="calorieGoalInput" placeholder="3000" min="1">
+4776: <strong id="calorieTargetText">3,000 kcal</strong>
+4780: <strong id="calorieConsumedText">0 kcal</strong>
+4784: <strong id="calorieRemainingText">3,000 kcal</strong>
+4800: <strong id="macroProteinTotal">0</strong>
+4804: <strong id="macroCarbsTotal">0</strong>
+4808: <strong id="macroFatTotal">0</strong>
+4831: <div class="track-modal" style="max-width: 900px;">
+4847: <span class="ba-slide-date" id="baSlideDate">01-01-2026</span>
+4896: <div class="track-modal" style="max-width: 500px;">
+4910: <input type="text" id="mealQuantityInput" placeholder="เช่น 1 ฟอง, 150 กรัม, 1 จาน">
+4930: <input type="number" id="mealProteinInput" placeholder="0" min="0">
+4934: <input type="number" id="mealCarbsInput" placeholder="0" min="0">
+4938: <input type="number" id="mealFatInput" placeholder="0" min="0">
+4953: <div class="track-modal ai-full-modal" style="max-width: 750px;">
+4963: <p id="aiFullSummaryText" class="ai-full-summary-text">ยังไม่มีข้อมูลสรุป</p>
+4966: <h4><i class="ri-bar-chart-box-line" style="color: #00d4ff; margin-right: 5px;"></i> ข้อมูลสำคัญ</h4>
+4968: <li>ยังไม่มีข้อมูลสำคัญ</li>
+4980: <h4><i class="ri-heart-pulse-line" style="color: #00ff88; margin-right: 5px;"></i> คำแนะนำ</h4>
+4996: <div class="track-modal" style="max-width: 900px;">
+4999: <div style="display: flex; align-items: center; gap: 0.8rem;">
+5001: style="background: transparent; border: 1px solid #a78bfa; color: #a78bfa; padding: 0.5rem 1rem; border-radius: 6px; font-size: 0.85rem; cursor: pointer; white-space: nowrap; transition: all 0.2s;">
+5024: <input type="number" class="strength-slot-current" placeholder="0" min="0" step="0.5" data-slot="1">
+5028: <input type="number" class="strength-slot-current-sets" placeholder="0" min="1" max="10"
+5033: <input type="number" class="strength-slot-current-reps" placeholder="0" min="1" max="50"
+5043: <input type="number" class="strength-slot-goal" placeholder="0" min="0" step="0.5" data-slot="1">
+5047: <input type="number" class="strength-slot-goal-sets" placeholder="0" min="1" max="10" data-slot="1">
+5051: <input type="number" class="strength-slot-goal-reps" placeholder="0" min="1" max="50" data-slot="1">
+5057: <div class="strength-progress-fill" style="width: 0%;"></div>
+5074: <input type="number" class="strength-slot-current" placeholder="0" min="0" step="0.5" data-slot="2">
+5078: <input type="number" class="strength-slot-current-sets" placeholder="0" min="1" max="10"
+5083: <input type="number" class="strength-slot-current-reps" placeholder="0" min="1" max="50"
+5093: <input type="number" class="strength-slot-goal" placeholder="0" min="0" step="0.5" data-slot="2">
+5097: <input type="number" class="strength-slot-goal-sets" placeholder="0" min="1" max="10" data-slot="2">
+5101: <input type="number" class="strength-slot-goal-reps" placeholder="0" min="1" max="50" data-slot="2">
+5107: <div class="strength-progress-fill" style="width: 0%;"></div>
+5109: <span class="strength-progress-text">0%</span>
+5124: <input type="number" class="strength-slot-current" placeholder="0" min="0" step="0.5" data-slot="3">
+5128: <input type="number" class="strength-slot-current-sets" placeholder="0" min="1" max="10"
+5133: <input type="number" class="strength-slot-current-reps" placeholder="0" min="1" max="50"
+5143: <input type="number" class="strength-slot-goal" placeholder="0" min="0" step="0.5" data-slot="3">
+5147: <input type="number" class="strength-slot-goal-sets" placeholder="0" min="1" max="10" data-slot="3">
+5151: <input type="number" class="strength-slot-goal-reps" placeholder="0" min="1" max="50" data-slot="3">
+5157: <div class="strength-progress-fill" style="width: 0%;"></div>
+5159: <span class="strength-progress-text">0%</span>
+5174: <input type="number" class="strength-slot-current" placeholder="0" min="0" step="0.5" data-slot="4">
+5178: <input type="number" class="strength-slot-current-sets" placeholder="0" min="1" max="10"
+5183: <input type="number" class="strength-slot-current-reps" placeholder="0" min="1" max="50"
+5193: <input type="number" class="strength-slot-goal" placeholder="0" min="0" step="0.5" data-slot="4">
+5197: <input type="number" class="strength-slot-goal-sets" placeholder="0" min="1" max="10" data-slot="4">
+5201: <input type="number" class="strength-slot-goal-reps" placeholder="0" min="1" max="50" data-slot="4">
+5207: <div class="strength-progress-fill" style="width: 0%;"></div>
+5209: <span class="strength-progress-text">0%</span>
+5224: <input type="number" class="strength-slot-current" placeholder="0" min="0" step="0.5" data-slot="5">
+5228: <input type="number" class="strength-slot-current-sets" placeholder="0" min="1" max="10"
+5233: <input type="number" class="strength-slot-current-reps" placeholder="0" min="1" max="50"
+5243: <input type="number" class="strength-slot-goal" placeholder="0" min="0" step="0.5" data-slot="5">
+5247: <input type="number" class="strength-slot-goal-sets" placeholder="0" min="1" max="10" data-slot="5">
+5251: <input type="number" class="strength-slot-goal-reps" placeholder="0" min="1" max="50" data-slot="5">
+5257: <div class="strength-progress-fill" style="width: 0%;"></div>
+5259: <span class="strength-progress-text">0%</span>
+5274: <input type="number" class="strength-slot-current" placeholder="0" min="0" step="0.5" data-slot="6">
+5278: <input type="number" class="strength-slot-current-sets" placeholder="0" min="1" max="10"
+5283: <input type="number" class="strength-slot-current-reps" placeholder="0" min="1" max="50"
+5293: <input type="number" class="strength-slot-goal" placeholder="0" min="0" step="0.5" data-slot="6">
+5297: <input type="number" class="strength-slot-goal-sets" placeholder="0" min="1" max="10" data-slot="6">
+5301: <input type="number" class="strength-slot-goal-reps" placeholder="0" min="1" max="50" data-slot="6">
+5307: <div class="strength-progress-fill" style="width: 0%;"></div>
+5309: <span class="strength-progress-text">0%</span>
+5324: <input type="number" class="strength-slot-current" placeholder="0" min="0" step="0.5" data-slot="7">
+5328: <input type="number" class="strength-slot-current-sets" placeholder="0" min="1" max="10"
+5333: <input type="number" class="strength-slot-current-reps" placeholder="0" min="1" max="50"
+5343: <input type="number" class="strength-slot-goal" placeholder="0" min="0" step="0.5" data-slot="7">
+5347: <input type="number" class="strength-slot-goal-sets" placeholder="0" min="1" max="10" data-slot="7">
+5351: <input type="number" class="strength-slot-goal-reps" placeholder="0" min="1" max="50" data-slot="7">
+5357: <div class="strength-progress-fill" style="width: 0%;"></div>
+5359: <span class="strength-progress-text">0%</span>
+5374: <input type="number" class="strength-slot-current" placeholder="0" min="0" step="0.5" data-slot="8">
+5378: <input type="number" class="strength-slot-current-sets" placeholder="0" min="1" max="10"
+5383: <input type="number" class="strength-slot-current-reps" placeholder="0" min="1" max="50"
+5393: <input type="number" class="strength-slot-goal" placeholder="0" min="0" step="0.5" data-slot="8">
+5397: <input type="number" class="strength-slot-goal-sets" placeholder="0" min="1" max="10" data-slot="8">
+5401: <input type="number" class="strength-slot-goal-reps" placeholder="0" min="1" max="50" data-slot="8">
+5407: <div class="strength-progress-fill" style="width: 0%;"></div>
+5409: <span class="strength-progress-text">0%</span>
+5424: <input type="number" class="strength-slot-current" placeholder="0" min="0" step="0.5" data-slot="9">
+5428: <input type="number" class="strength-slot-current-sets" placeholder="0" min="1" max="10"
+5433: <input type="number" class="strength-slot-current-reps" placeholder="0" min="1" max="50"
+5443: <input type="number" class="strength-slot-goal" placeholder="0" min="0" step="0.5" data-slot="9">
+5447: <input type="number" class="strength-slot-goal-sets" placeholder="0" min="1" max="10" data-slot="9">
+5451: <input type="number" class="strength-slot-goal-reps" placeholder="0" min="1" max="50" data-slot="9">
+5457: <div class="strength-progress-fill" style="width: 0%;"></div>
+5459: <span class="strength-progress-text">0%</span>
+5463: <!-- Slot 10: Romanian Deadlift -->
+5474: <input type="number" class="strength-slot-current" placeholder="0" min="0" step="0.5"
+5475: data-slot="10">
+5479: <input type="number" class="strength-slot-current-sets" placeholder="0" min="1" max="10"
+5480: data-slot="10">
+5484: <input type="number" class="strength-slot-current-reps" placeholder="0" min="1" max="50"
+5485: data-slot="10">
+5494: <input type="number" class="strength-slot-goal" placeholder="0" min="0" step="0.5" data-slot="10">
+5498: <input type="number" class="strength-slot-goal-sets" placeholder="0" min="1" max="10"
+5499: data-slot="10">
+5503: <input type="number" class="strength-slot-goal-reps" placeholder="0" min="1" max="50"
+5504: data-slot="10">
+5508: <div class="strength-slot-progress" data-slot="10">
+5510: <div class="strength-progress-fill" style="width: 0%;"></div>
+5512: <span class="strength-progress-text">0%</span>
+5546: <input id="update-current-weight" type="number" min="0" step="0.5" placeholder="เช่น 60">
+5551: <input id="update-current-sets" type="number" min="1" max="10" placeholder="เช่น 3">
+5555: <input id="update-current-reps" type="number" min="1" max="50" placeholder="เช่น 10">
+5610: <div style="display: flex; align-items: center; gap: 0.8rem; flex: 1;">
+5611: <h2 style="margin: 0;">WORKOUT TO-DO LIST</h2>
+5615: style="background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%); border: none; color: white; padding: 0.6rem 1.2rem; border-radius: 8px; cursor: pointer; font-size: 0.9rem; font-weight: 600; transition: all 0.3s; display: flex; align-items: center; gap: 0.4rem; margin-right: 0.6rem;">
+5619: style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.24); color: #f2f4f7; padding: 0.6rem 1rem; border-radius: 8px; cursor: pointer; font-size: 0.88rem; font-weight: 600; transition: all 0.2s; display: flex; align-items: center; gap: 0.38rem; margin-right: 0.6rem;">
+5627: <div class="track-modal-content" style="min-height: 300px; padding: 1rem;">
+5676: <input type="radio" name="rpe" value="10" id="rpe10"><label for="rpe10">10</label>
+5687: <input type="number" name="calories" class="track-input" placeholder="กรอกจำนวนแคลอรี่..." min="0">
+5689: <div class="track-progress-bar-inner" id="nutrition-progress-bar" style="width:0%"></div>
+5691: <div class="track-progress-info"><span id="nutrition-progress-label">0/3,000 แคลอรี่</span></div>
+5694: <input type="number" name="protein" class="track-input" placeholder="โปรตีน (g)" min="0">
+5695: <input type="number" name="carbs" class="track-input" placeholder="คาร์บ (g)" min="0">
+5696: <input type="number" name="fat" class="track-input" placeholder="ไขมัน (g)" min="0">
+5702: <input type="number" name="weight" class="track-input" placeholder="กรอกน้ำหนัก..." min="0" step="0.1">
+5708: style="width:70px;height:70px;border-radius:8px;background:#23262b;border:1.5px solid #35373b;display:flex;align-items:center;justify-content:center;">
+5719: style="width:70px;height:70px;border-radius:8px;background:#23262b;border:1.5px solid #35373b;display:flex;align-items:center;justify-content:center;margin-top:0.2rem;"
+5725: <input type="number" name="chest" class="track-input" placeholder="รอบอก (นิ้ว)" min="0">
+5726: <input type="number" name="waist" class="track-input" placeholder="รอบเอว (นิ้ว)" min="0">
+5727: <input type="number" name="arm" class="track-input" placeholder="รอบแขน (นิ้ว)" min="0">
+5765: <input type="number" id="weightInput" class="track-input" placeholder="เช่น 75" step="0.1" min="0">
+5769: <input type="number" id="heightInput" class="track-input" placeholder="เช่น 170" step="0.1" min="0">
+5773: <input type="number" id="bodyFatInput" class="track-input" placeholder="เช่น 18" step="0.1" min="0"
+5774: max="100">
+5798: <div class="weight-history-empty">ยังไม่มีข้อมูล</div>
